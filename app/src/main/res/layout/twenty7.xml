@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingTop="10dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/egziabherin_begil_mawek"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="#ffffff"
+        android:textColor="#e46315"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:context="gcme.hascom.hiliwinawFragments.FragmentSix">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTwenty7"
+            android:text="@string/egziabherin_begil_mawek_detail"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textIsSelectable="true"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/egzimawek1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTwenty71"
+                android:text="@string/egziabherin_begil_mawek_detail_one"
+                android:textSize="18dp"
+                android:textColor="#000000"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/egzimawek2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTwenty72"
+                android:text="@string/egziabherin_begil_mawek_detail_two"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textIsSelectable="true"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/egzimawek3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTwenty73"
+                android:text="@string/egziabherin_begil_mawek_detail_three"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textIsSelectable="true"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/egzimawek4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTwenty74"
+                android:text="@string/egziabherin_begil_mawek_detail_four"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textIsSelectable="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+android:id="@+id/fab_twenty7"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentEnd="true"
+android:layout_alignParentBottom="true"
+android:layout_marginBottom="70dp"
+android:src="@drawable/ic_action_share" />
+    </RelativeLayout>
