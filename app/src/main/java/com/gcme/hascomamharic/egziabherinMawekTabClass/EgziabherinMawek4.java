@@ -1,6 +1,5 @@
 package com.gcme.hascomamharic.egziabherinMawekTabClass;
 
-import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -10,21 +9,16 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
-import android.view.Menu;
-import android.view.MenuItem;
 
-import com.gcme.hascomamharic.egziabherinMawekFragment.Thirty;
-import com.gcme.hascomamharic.egziabherinMawekFragment.Thirty1;
-import com.gcme.hascomamharic.egziabherinMawekFragment.Thirty2;
-import com.gcme.hascomamharic.egziabherinMawekFragment.Thirty3;
-import com.gcme.hascomamharic.egziabherinMawekFragment.Thirty4;
-import com.gcme.hascomamharic.egziabherinMawekFragment.Twenty7;
-import com.gcme.hascomamharic.egziabherinMawekFragment.Twenty8;
-import com.gcme.hascomamharic.egziabherinMawekFragment.Twenty9;
+import com.gcme.hascomamharic.egziabherinMawekFragment.FragmentThirty;
+import com.gcme.hascomamharic.egziabherinMawekFragment.FragmentThirty1;
+import com.gcme.hascomamharic.egziabherinMawekFragment.FragmentThirty2;
+import com.gcme.hascomamharic.egziabherinMawekFragment.FragmentThirty3;
+import com.gcme.hascomamharic.egziabherinMawekFragment.FragmentThirty4;
+import com.gcme.hascomamharic.egziabherinMawekFragment.FragmentTwenty7;
+import com.gcme.hascomamharic.egziabherinMawekFragment.FragmentTwenty8;
+import com.gcme.hascomamharic.egziabherinMawekFragment.FragmentTwenty9;
 import com.gcme.hascomamharic.R;
-import com.gcme.hascomamharic.activity.AboutUs;
-import com.gcme.hascomamharic.activity.Feedback;
-import com.gcme.hascomamharic.activity.TeleEshtaol;
 
 /**
  * Created by buty on 12/29/15.
@@ -71,29 +65,29 @@ public class EgziabherinMawek4 extends AppCompatActivity {
 
 
             if (position == 0) {
-                fragment = new Thirty1();
+                fragment = new FragmentThirty1();
             }
             if (position == 1) {
-                fragment = new Thirty();
+                fragment = new FragmentThirty();
             }
             if (position == 2) {
-                fragment = new Twenty9();
+                fragment = new FragmentTwenty9();
             }
             if (position == 3) {
-                fragment = new Twenty8();
+                fragment = new FragmentTwenty8();
             }
             if (position == 4) {
-                fragment = new Twenty7();
+                fragment = new FragmentTwenty7();
             }
             if (position == 5) {
-                fragment = new Thirty2();
+                fragment = new FragmentThirty2();
             }
             if (position == 6) {
-                fragment = new Thirty3();
+                fragment = new FragmentThirty3();
             }
             if (position == 7) {
 
-                fragment = new Thirty4();
+                fragment = new FragmentThirty4();
             }
 
             return fragment;

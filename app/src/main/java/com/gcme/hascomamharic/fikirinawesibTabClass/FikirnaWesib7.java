@@ -1,6 +1,5 @@
 package com.gcme.hascomamharic.fikirinawesibTabClass;
 
-import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -10,25 +9,20 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
-import android.view.Menu;
-import android.view.MenuItem;
 
-import com.gcme.hascomamharic.fikirinawesibFragment.Eighteen;
-import com.gcme.hascomamharic.fikirinawesibFragment.Fiften;
-import com.gcme.hascomamharic.fikirinawesibFragment.Nineteen;
-import com.gcme.hascomamharic.fikirinawesibFragment.Seventhen;
-import com.gcme.hascomamharic.fikirinawesibFragment.Sixteen;
-import com.gcme.hascomamharic.fikirinawesibFragment.Twenty;
-import com.gcme.hascomamharic.fikirinawesibFragment.Twenty1;
-import com.gcme.hascomamharic.fikirinawesibFragment.Twenty2;
-import com.gcme.hascomamharic.fikirinawesibFragment.Twenty3;
-import com.gcme.hascomamharic.fikirinawesibFragment.Twenty4;
-import com.gcme.hascomamharic.fikirinawesibFragment.Twenty5;
-import com.gcme.hascomamharic.fikirinawesibFragment.Twenty6;
+import com.gcme.hascomamharic.fikirinawesibFragment.FragmentEighteen;
+import com.gcme.hascomamharic.fikirinawesibFragment.FragmentFifteen;
+import com.gcme.hascomamharic.fikirinawesibFragment.FragmentNineteen;
+import com.gcme.hascomamharic.fikirinawesibFragment.FragmentSeventeen;
+import com.gcme.hascomamharic.fikirinawesibFragment.FragmentSixteen;
+import com.gcme.hascomamharic.fikirinawesibFragment.FragmentTwenty;
+import com.gcme.hascomamharic.fikirinawesibFragment.FragmentTwenty1;
+import com.gcme.hascomamharic.fikirinawesibFragment.FragmentTwenty2;
+import com.gcme.hascomamharic.fikirinawesibFragment.FragmentTwenty3;
+import com.gcme.hascomamharic.fikirinawesibFragment.FragmentTwenty4;
+import com.gcme.hascomamharic.fikirinawesibFragment.FragmentTwenty5;
+import com.gcme.hascomamharic.fikirinawesibFragment.FragmentTwenty6;
 import com.gcme.hascomamharic.R;
-import com.gcme.hascomamharic.activity.AboutUs;
-import com.gcme.hascomamharic.activity.Feedback;
-import com.gcme.hascomamharic.activity.TeleEshtaol;
 
 /**
  * Created by buty on 12/29/15.
@@ -74,40 +68,40 @@ public class FikirnaWesib7 extends AppCompatActivity {
             Fragment fragment = null;
 
             if (position == 0) {
-                fragment = new Twenty2();
+                fragment = new FragmentTwenty2();
             }
             if (position == 1) {
-                fragment = new Twenty1();
+                fragment = new FragmentTwenty1();
             }
             if (position == 2) {
-                fragment = new Twenty();
+                fragment = new FragmentTwenty();
             }
             if (position == 3) {
 
-                fragment = new Nineteen();
+                fragment = new FragmentNineteen();
             }if (position == 4) {
-                fragment = new Eighteen();
+                fragment = new FragmentEighteen();
             }
             if (position == 5) {
-                fragment = new Seventhen();
+                fragment = new FragmentSeventeen();
             }
             if (position == 6) {
-                fragment = new Sixteen();
+                fragment = new FragmentSixteen();
             }
             if (position == 7) {
-                fragment = new Fiften();
+                fragment = new FragmentFifteen();
             }
             if (position == 8) {
-                fragment = new Twenty3();
+                fragment = new FragmentTwenty3();
             }
             if (position == 9) {
-                fragment = new Twenty4();
+                fragment = new FragmentTwenty4();
             }
             if (position == 10) {
-                fragment = new Twenty5();
+                fragment = new FragmentTwenty5();
             }
             if (position == 11) {
-                fragment = new Twenty6();
+                fragment = new FragmentTwenty6();
             }
             return fragment;
         }

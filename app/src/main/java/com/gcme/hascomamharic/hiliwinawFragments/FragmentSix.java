@@ -19,7 +19,7 @@ public class FragmentSix extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.six_activity, container, false);
+        View view=inflater.inflate(R.layout.fragment_six, container, false);
         TextView t=(TextView) view.findViewById(R.id.tvSix);
         Typeface tf=Typeface.createFromAsset(getActivity().getAssets(), "fonts/AbyssinicaSIL-R.ttf");
         t.setTypeface(tf);

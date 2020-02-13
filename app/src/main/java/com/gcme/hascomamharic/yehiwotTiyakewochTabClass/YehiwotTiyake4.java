@@ -1,6 +1,5 @@
 package com.gcme.hascomamharic.yehiwotTiyakewochTabClass;
 
-import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -10,21 +9,16 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
-import android.view.Menu;
-import android.view.MenuItem;
 
-import com.gcme.hascomamharic.yehiwotTiyakewochFragment.Eight;
-import com.gcme.hascomamharic.yehiwotTiyakewochFragment.Eleven;
-import com.gcme.hascomamharic.yehiwotTiyakewochFragment.Fourteen;
-import com.gcme.hascomamharic.yehiwotTiyakewochFragment.Nine;
-import com.gcme.hascomamharic.yehiwotTiyakewochFragment.Seven;
-import com.gcme.hascomamharic.yehiwotTiyakewochFragment.Ten;
-import com.gcme.hascomamharic.yehiwotTiyakewochFragment.Thirteen;
-import com.gcme.hascomamharic.yehiwotTiyakewochFragment.Twelve;
+import com.gcme.hascomamharic.yehiwotTiyakewochFragment.FragmentEight;
+import com.gcme.hascomamharic.yehiwotTiyakewochFragment.FragmentEleven;
+import com.gcme.hascomamharic.yehiwotTiyakewochFragment.FragmentFourteen;
+import com.gcme.hascomamharic.yehiwotTiyakewochFragment.FragmentNine;
+import com.gcme.hascomamharic.yehiwotTiyakewochFragment.FragmentSeven;
+import com.gcme.hascomamharic.yehiwotTiyakewochFragment.FragmentTen;
+import com.gcme.hascomamharic.yehiwotTiyakewochFragment.FragmentThirteen;
+import com.gcme.hascomamharic.yehiwotTiyakewochFragment.FragmentTwelve;
 import com.gcme.hascomamharic.R;
-import com.gcme.hascomamharic.activity.AboutUs;
-import com.gcme.hascomamharic.activity.Feedback;
-import com.gcme.hascomamharic.activity.TeleEshtaol;
 
 /**
  * Created by buty on 12/29/15.
@@ -71,33 +65,33 @@ public class YehiwotTiyake4 extends AppCompatActivity {
 
 
             if (position == 0) {
-                fragment = new Eleven();
+                fragment = new FragmentEleven();
             }
             if (position == 1) {
 
-                fragment = new Ten();
+                fragment = new FragmentTen();
             }
 
             if (position == 2) {
-                fragment = new Nine();
+                fragment = new FragmentNine();
             }
 
             if (position == 3) {
-                fragment = new Eight();
+                fragment = new FragmentEight();
             }
             if (position == 4) {
-                fragment = new Seven();
+                fragment = new FragmentSeven();
             }
             if (position == 5) {
-                fragment = new Twelve();
+                fragment = new FragmentTwelve();
             }
 
             if (position == 6) {
-                fragment = new Thirteen();
+                fragment = new FragmentThirteen();
             }
 
             if (position == 7) {
-                fragment = new Fourteen();
+                fragment = new FragmentFourteen();
             }
 
 

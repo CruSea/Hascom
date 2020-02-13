@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "940911704566",
+    "firebase_url": "https://hascom-amharic.firebaseio.com",
+    "project_id": "hascom-amharic",
+    "storage_bucket": "hascom-amharic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940911704566:android:77debfd8b121180477efd7",
+        "android_client_info": {
+          "package_name": "com.gcme.hascomamharic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940911704566-2vsn6sm9mv80chp34kgc183eb04vm44c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gcme.hascomamharic",
+            "certificate_hash": "6d8f4d2ee466cd814dcc016cc7373f65bd54870a"
+          }
+        },
+        {
+          "client_id": "940911704566-1pnj9hk048gjhneeo772an1i01fa7j0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrB_NOsh8QlmA9mCkZmoRDaNELhHHfy7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940911704566-1pnj9hk048gjhneeo772an1i01fa7j0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

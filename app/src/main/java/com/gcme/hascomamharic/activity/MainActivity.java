@@ -1,10 +1,8 @@
 package com.gcme.hascomamharic.activity;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -21,12 +19,12 @@ import androidx.appcompat.widget.Toolbar;
 
 
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
-import com.gcme.hascomamharic.activityFilmoch.Fourty;
-import com.gcme.hascomamharic.activityFilmoch.Thirty5;
-import com.gcme.hascomamharic.activityFilmoch.Thirty6;
-import com.gcme.hascomamharic.activityFilmoch.Thirty7;
-import com.gcme.hascomamharic.activityFilmoch.Thirty8;
-import com.gcme.hascomamharic.activityFilmoch.Thirty9;
+import com.gcme.hascomamharic.activityFilmoch.ActivityFourty;
+import com.gcme.hascomamharic.activityFilmoch.ActivityThirty5;
+import com.gcme.hascomamharic.activityFilmoch.ActivityThirty6;
+import com.gcme.hascomamharic.activityFilmoch.ActivityThirty7;
+import com.gcme.hascomamharic.activityFilmoch.ActivityThirty8;
+import com.gcme.hascomamharic.activityFilmoch.ActivityThirty9;
 import com.gcme.hascomamharic.egziabherinMawekTabClass.EgziabherinMawek;
 import com.gcme.hascomamharic.egziabherinMawekTabClass.EgziabherinMawek1;
 import com.gcme.hascomamharic.egziabherinMawekTabClass.EgziabherinMawek2;
@@ -325,22 +323,22 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
                 startActivity(new Intent(MainActivity.this, EgziabherinMawek7.class));
                 break;
             case R.id.btn32yehiwotmisikirinetoch:
-                startActivity(new Intent(MainActivity.this, Thirty5.class));
+                startActivity(new Intent(MainActivity.this, ActivityThirty5.class));
                 break;
             case R.id.btn33yegilyehiwotmisikirinetoch:
-                startActivity(new Intent(MainActivity.this, Thirty6.class));
+                startActivity(new Intent(MainActivity.this, ActivityThirty6.class));
                 break;
             case R.id.btn34yegilyehiwotmisikirinetoch:
-                startActivity(new Intent(MainActivity.this, Thirty7.class));
+                startActivity(new Intent(MainActivity.this, ActivityThirty7.class));
                 break;
             case R.id.btn35yegilyehiwotmisikirinetoch:
-                startActivity(new Intent(MainActivity.this, Thirty8.class));
+                startActivity(new Intent(MainActivity.this, ActivityThirty8.class));
                 break;
             case R.id.btn36yegilyehiwotmisikirinetoch:
-                startActivity(new Intent(MainActivity.this, Thirty9.class));
+                startActivity(new Intent(MainActivity.this, ActivityThirty9.class));
                 break;
             case R.id.btn37yegilyehiwotmisikirinetoch:
-                startActivity(new Intent(MainActivity.this, Fourty.class));
+                startActivity(new Intent(MainActivity.this, ActivityFourty.class));
                 break;
 
 

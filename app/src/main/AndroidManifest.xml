@@ -219,22 +219,22 @@
             android:label="ቴል_ኤሽታኦል">
 
         </activity>
-        <activity android:name="com.gcme.hascomamharic.activityFilmoch.Thirty5"
+        <activity android:name="com.gcme.hascomamharic.activityFilmoch.ActivityThirty5"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
-        <activity android:name="com.gcme.hascomamharic.activityFilmoch.Thirty6"
+        <activity android:name="com.gcme.hascomamharic.activityFilmoch.ActivityThirty6"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
-        <activity android:name="com.gcme.hascomamharic.activityFilmoch.Thirty7"
+        <activity android:name="com.gcme.hascomamharic.activityFilmoch.ActivityThirty7"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
-        <activity android:name="com.gcme.hascomamharic.activityFilmoch.Thirty8"
+        <activity android:name="com.gcme.hascomamharic.activityFilmoch.ActivityThirty8"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
-        <activity android:name="com.gcme.hascomamharic.activityFilmoch.Thirty9"
+        <activity android:name="com.gcme.hascomamharic.activityFilmoch.ActivityThirty9"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
-        <activity android:name="com.gcme.hascomamharic.activityFilmoch.Fourty"
+        <activity android:name="com.gcme.hascomamharic.activityFilmoch.ActivityFourty"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
 
